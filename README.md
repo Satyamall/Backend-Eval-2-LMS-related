@@ -16,17 +16,17 @@
  - author_id ( references the user collection )
  - batch
  - 
-**user should have instructor, student and admin roles Create a user registration flow which contains below APIs
+**user should have instructor, student and admin roles Create a user registration flow which contains below APIs**
 
-**Also allow the user to use register and login ( when creating the account and then log them in)
+**Also allow the user to use register and login ( when creating the account and then log them in)**
 
-**use jwt tokens
+**use jwt tokens**
 
-**use bearer tokens for authentication
+**use bearer tokens for authentication**
 
-**use middlewares for authorization
+**use middlewares for authorization**
 
-**wherever necessary check if the user is the author
+**wherever necessary check if the user is the author**
 
 **Create below lectures endpoints**
  - post "/users" => which will create a user and also the profile_photo has to be uploaded along with suitable role.
