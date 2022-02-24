@@ -10,6 +10,6 @@ const upload = require('../utils/file-upload');
 router.post("/register", upload.single("profile_photo"),register)
 router.post("/login",login)
 
-router.get("/", protect, getUsers);
+router.get("/", protect,getUsers);
 
 module.exports = router;
